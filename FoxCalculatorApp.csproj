@@ -56,9 +56,19 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\alta_color.png" />
 	  <None Remove="Resources\Images\app_logo_color.png" />
+	  <None Remove="Resources\Images\baixa_color.png" />
+	  <None Remove="Resources\Images\board_color.png" />
 	  <None Remove="Resources\Images\confirmar_black.png" />
+	  <None Remove="Resources\Images\database_color.png" />
+	  <None Remove="Resources\Images\dinheiro_color.png" />
+	  <None Remove="Resources\Images\editar_taxas_color.png" />
+	  <None Remove="Resources\Images\enviar_color.png" />
+	  <None Remove="Resources\Images\moeda_receber_color.png" />
 	  <None Remove="Resources\Images\receber_color.png" />
+	  <None Remove="Resources\Images\sale_tax_color.png" />
+	  <None Remove="Resources\Images\salvar_color.png" />
 	  <None Remove="Resources\Images\taxas_color.png" />
 	</ItemGroup>
 
@@ -68,6 +78,15 @@
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
 		<PackageReference Include="sqlite-net-pcl" Version="1.8.116" />
 		<PackageReference Include="SQLitePCLRaw.provider.dynamic_cdecl" Version="2.1.8" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="AppCode\Pages\NovasTaxasPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="AppCode\Pages\TaxasParcelamentoPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	</ItemGroup>
 
 </Project>

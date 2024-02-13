@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FoxCalculatorApp.AppCode.Pages.NovasTaxasPage"
+             Title="NovasTaxasPage">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <VerticalStackLayout Grid.Row="0" BackgroundColor="#0B60B0" Padding="10" Spacing="10">
+            <Image Source="editar_taxas_color.png"/>
+            <Label Text="Configurar Taxa de Parcelamento"
+                   FontSize="Large"
+                   FontAttributes="Bold"
+                   TextColor="#FFFFFF"
+                   HorizontalTextAlignment="Center"/>
+            <Button Text="Aplicar Taxas"
+                    FontSize="Medium"
+                    FontAttributes="Bold"
+                    TextColor="#FFFFFF"
+                    BackgroundColor="#40A2D8"
+                    Margin="30,0"
+                    Clicked="Button_Clicked_AplicarTaxas"/>
+        </VerticalStackLayout>
+
+        <VerticalStackLayout Grid.Row="1" Padding="20" Spacing="20" VerticalOptions="Center">
+            <StackLayout Orientation="Horizontal" Spacing="10">
+                <Frame BorderColor="Black" CornerRadius="5" Padding="5" HorizontalOptions="FillAndExpand">
+                    <StackLayout>
+                        <Label Text="Parcelado em 1x:"
+                               FontSize="Small"
+                               FontAttributes="Bold"
+                               HorizontalTextAlignment="Center"/>
+                        <Entry x:Name="textBoxParcela01"
+                                   FontSize="Medium"
+                                   HorizontalTextAlignment="Center"
+                                   Keyboard="Numeric"
+                                   MaxLength="5"
+                                   ReturnType="Next"/>
+                    </StackLayout>
+                </Frame>
+                <Frame BorderColor="Black" CornerRadius="5" Padding="5" HorizontalOptions="FillAndExpand">
+                    <StackLayout>
+                        <Label Text="Parcelado em 2x:"
+                               FontSize="Small"
+                               FontAttributes="Bold"
+                               HorizontalTextAlignment="Center"/>
+                        <Entry x:Name="textBoxParcela02"
+                                   FontSize="Medium"
+                                   HorizontalTextAlignment="Center"
+                                   Keyboard="Numeric"
+                                   MaxLength="5"
+                                   ReturnType="Next"/>
+                    </StackLayout>
+                </Frame>
+                <Frame BorderColor="Black" CornerRadius="5" Padding="5" HorizontalOptions="FillAndExpand">
+                    <StackLayout>
+                        <Label Text="Parcelado em 3x:"
+                               FontSize="Small"
+                               FontAttributes="Bold"
+                               HorizontalTextAlignment="Center"/>
+                        <Entry x:Name="textBoxParcela03"
+                                   FontSize="Medium"
+                                   HorizontalTextAlignment="Center"
+                                   Keyboard="Numeric"
+                                   MaxLength="5"
+                                   ReturnType="Next"/>
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+            
+            <StackLayout Orientation="Horizontal" Spacing="10">
+                <Frame BorderColor="Black" CornerRadius="5" Padding="5" HorizontalOptions="FillAndExpand">
+                    <StackLayout>
+                        <Label Text="Parcelado em 4x:"
+                               FontSize="Small"
+                               FontAttributes="Bold"
+                               HorizontalTextAlignment="Center"/>
+                        <Entry x:Name="textBoxParcela04"
+                                   FontSize="Medium"
+                                   HorizontalTextAlignment="Center"
+                                   Keyboard="Numeric"
+                                   MaxLength="5"
+                                   ReturnType="Next"/>
+                    </StackLayout>
+                </Frame>
+                <Frame BorderColor="Black" CornerRadius="5" Padding="5" HorizontalOptions="FillAndExpand">
+                    <StackLayout>
+                        <Label Text="Parcelado em 5x:"
+                               FontSize="Small"
+                               FontAttributes="Bold"
+                               HorizontalTextAlignment="Center"/>
+                        <Entry x:Name="textBoxParcela05"
+                                   FontSize="Medium"
+                                   HorizontalTextAlignment="Center"
+                                   Keyboard="Numeric"
+                                   MaxLength="5"
+                                   ReturnType="Next"/>
+                    </StackLayout>
+                </Frame>
+                <Frame BorderColor="Black" CornerRadius="5" Padding="5" HorizontalOptions="FillAndExpand">
+                    <StackLayout>
+                        <Label Text="Parcelado em 6x:"
+                               FontSize="Small"
+                               FontAttributes="Bold"
+                               HorizontalTextAlignment="Center"/>
+                        <Entry x:Name="textBoxParcela06"
+                                   FontSize="Medium"
+                                   HorizontalTextAlignment="Center"
+                                   Keyboard="Numeric"
+                                   MaxLength="5"
+                                   ReturnType="Next"/>
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+            
+            <StackLayout Orientation="Horizontal" Spacing="10">
+                <Frame BorderColor="Black" CornerRadius="5" Padding="5" HorizontalOptions="FillAndExpand">
+                    <StackLayout>
+                        <Label Text="Parcelado em 7x:"
+                               FontSize="Small"
+                               FontAttributes="Bold"
+                               HorizontalTextAlignment="Center"/>
+                        <Entry x:Name="textBoxParcela07"
+                                   FontSize="Medium"
+                                   HorizontalTextAlignment="Center"
+                                   Keyboard="Numeric"
+                                   MaxLength="5"
+                                   ReturnType="Next"/>
+                    </StackLayout>
+                </Frame>
+                <Frame BorderColor="Black" CornerRadius="5" Padding="5" HorizontalOptions="FillAndExpand">
+                    <StackLayout>
+                        <Label Text="Parcelado em 8x:"
+                               FontSize="Small"
+                               FontAttributes="Bold"
+                               HorizontalTextAlignment="Center"/>
+                        <Entry x:Name="textBoxParcela08"
+                                   FontSize="Medium"
+                                   HorizontalTextAlignment="Center"
+                                   Keyboard="Numeric"
+                                   MaxLength="5"
+                                   ReturnType="Next"/>
+                    </StackLayout>
+                </Frame>
+                <Frame BorderColor="Black" CornerRadius="5" Padding="5" HorizontalOptions="FillAndExpand">
+                    <StackLayout>
+                        <Label Text="Parcelado em 9x:"
+                               FontSize="Small"
+                               FontAttributes="Bold"
+                               HorizontalTextAlignment="Center"/>
+                        <Entry x:Name="textBoxParcela09"
+                                   FontSize="Medium"
+                                   HorizontalTextAlignment="Center"
+                                   Keyboard="Numeric"
+                                   MaxLength="5"
+                                   ReturnType="Next"/>
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+            
+            <StackLayout Orientation="Horizontal" Spacing="10">
+                <Frame BorderColor="Black" CornerRadius="5" Padding="5" HorizontalOptions="FillAndExpand">
+                    <StackLayout>
+                        <Label Text="Parcelado em 10x:"
+                               FontSize="Small"
+                               FontAttributes="Bold"
+                               HorizontalTextAlignment="Center"/>
+                        <Entry x:Name="textBoxParcela10"
+                                   FontSize="Medium"
+                                   HorizontalTextAlignment="Center"
+                                   Keyboard="Numeric"
+                                   MaxLength="5"
+                                   ReturnType="Next"/>
+                    </StackLayout>
+                </Frame>
+                <Frame BorderColor="Black" CornerRadius="5" Padding="5" HorizontalOptions="FillAndExpand">
+                    <StackLayout>
+                        <Label Text="Parcelado em 11x:"
+                               FontSize="Small"
+                               FontAttributes="Bold"
+                               HorizontalTextAlignment="Center"/>
+                        <Entry x:Name="textBoxParcela11"
+                                   FontSize="Medium"
+                                   HorizontalTextAlignment="Center"
+                                   Keyboard="Numeric"
+                                   MaxLength="5"
+                                   ReturnType="Next"/>
+                    </StackLayout>
+                </Frame>
+                <Frame BorderColor="Black" CornerRadius="5" Padding="5" HorizontalOptions="FillAndExpand">
+                    <StackLayout>
+                        <Label Text="Parcelado em 12x:"
+                               FontSize="Small"
+                               FontAttributes="Bold"
+                               HorizontalTextAlignment="Center"/>
+                        <Entry x:Name="textBoxParcela12"
+                                   FontSize="Medium"
+                                   HorizontalTextAlignment="Center"
+                                   Keyboard="Numeric"
+                                   MaxLength="5"
+                                   ReturnType="Next"/>
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+        </VerticalStackLayout>
+    </Grid>
+</ContentPage>

@@ -22,7 +22,8 @@ namespace FoxCalculatorApp
         {
             InitializeComponent();
 
-            MainPage = new AppShell();
+            MainPage = new AppCode.Pages.NovasTaxasPage();
+            //MainPage = new AppShell();
         }
     }
 }
